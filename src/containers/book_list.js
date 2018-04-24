@@ -8,10 +8,9 @@ The most parent component that cares about state to do its thing it should be a 
 class BookList extends Component {
   // TODO why isn't there a constructor? I thought all react class components needed one.
   renderList() {
-    console.log(this.props.books);
     return this.props.books.map((book) => {
       return (
-        <li onClick={ () => this.props.selectBook(book)} 
+        <li onClick={ () => this.props.selectBook(book)}
           key={book.title}
           className="list-group-item">
         {book.title}
