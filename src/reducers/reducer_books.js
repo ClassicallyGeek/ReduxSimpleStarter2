@@ -2,9 +2,9 @@
 /* Books reducer always returns an array of books */
 export default function () {
   return [
-    { title: 'Picture of Dorian Gray' },
-    { title: 'Wuthering Heights' },
-    { title: 'Masters of Deception' },
-    { title: 'Monstress' }
+    { title: 'Picture of Dorian Gray', pages: 264 },
+    { title: 'Wuthering Heights', pages: 500 },
+    { title: 'Masters of Deception', pages: 85 },
+    { title: 'Monstress', pages: 39 }
   ]
 }
